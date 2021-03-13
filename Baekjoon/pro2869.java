@@ -1,9 +1,7 @@
 package Baekjoon;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.nio.Buffer;
 import java.util.*;
+import java.io.*;
 
 
 
@@ -11,7 +9,7 @@ public class pro2869 {
     public static void main(String[] args) throws IOException{
         int A, B, V;
 
-        BufferedReader br = new BufferedReader(new java.io.InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
         A = Integer.parseInt(st.nextToken());
